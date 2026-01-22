@@ -16,7 +16,7 @@ function M.setup()
 end
 
 ---Any comment
-M.highlights.comment = Highlight.new("Comment", { fg = c.brown, italic = opts.italic.comments })
+M.highlights.comment = Highlight.new("Comment", { fg = c.green, italic = opts.italic.comments })
 ---Used for the columns set with 'colorcolumn'
 M.highlights.color_column = Highlight.new("ColorColumn", { bg = c["bg+2"] })
 ---Placeholder characters substituted for concealed text (see 'conceallevel')
@@ -174,9 +174,9 @@ M.highlights.wild_menu = Highlight.new("WildMenu", { fg = c.black, bg = c.yellow
 ---(preferred) any constant
 M.highlights.constant = Highlight.new("Constant", { link = gruber_hl.quartz })
 ---A string constant: "this is a string"
-M.highlights.string = Highlight.new("String", { fg = c.green, italic = opts.italic.strings })
+M.highlights.string = Highlight.new("String", { fg = c.wisteria, italic = opts.italic.strings })
 ---A character constant: 'c', '\n'
-M.highlights.character = Highlight.new("Character", { fg = c.green, italic = opts.italic.strings })
+M.highlights.character = Highlight.new("Character", { fg = c.wisteria, italic = opts.italic.strings })
 ---A number constant: 234, 0xff
 M.highlights.number = Highlight.new("Number", { link = gruber_hl.wisteria })
 ---A boolean constant: TRUE, false

@@ -23,7 +23,8 @@ M = {
 	brown = Color.new(0xcc8c3c),
 	quartz = Color.new(0x95a99f),
 	["niagara-2"] = Color.new(0x303540),
-	["niagara-1"] = Color.new(0x565f73),
+	-- ["niagara-1"] = Color.new(0x565f73), -- 原来的
+	["niagara-1"] = Color.new(0xf4f4ff),
 	niagara = Color.new(0x96a6c8),
 	wisteria = Color.new(0x9e95c7),
 }
